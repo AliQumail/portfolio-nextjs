@@ -7,10 +7,10 @@ function Intro() {
 
       <div className="container">
         <div className="row pt-3 pb-1 justify-content-sm-center">
-          <div className="col col-lg-9 col-md-9 col-sm-6">
+          <div className="col col-lg-9 col-md-7 col-sm-6">
             <p className={styles.signature}>Ali Qumail</p>
           </div>
-          <div className="col col-lg-3 col-md-3 col-sm-6">
+          <div className="col col-lg-3 col-md-4 col-sm-6">
             <a
               href="https://www.linkedin.com/in/ali-qumail-4b77601a8/"
               rel="noreferrer"
@@ -57,7 +57,7 @@ function Intro() {
             <a className={styles.link} href="#projectsSection">
               Projects
             </a>
-            <a className={styles.link} href="">
+            <a className={styles.link} href="/Resume.pdf">
               Resume
             </a>
             <a className={styles.link} href="#contactSection">

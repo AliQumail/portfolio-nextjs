@@ -1,3 +1,4 @@
+
 .background{
     background-image: url("../public/background.jpg");
     -webkit-background-size: cover;
@@ -75,3 +76,25 @@
 .icons{
   
 }
+
+@media only screen and (max-width: 410px) {
+    .fa {
+        padding: 0px 15px;
+        font-size: 22px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 13px 0px;
+        border-radius: 50%;
+        color:rgb(255, 255, 255);
+      }
+      .introDetails{
+        text-align: center;
+        opacity: 0.8;
+        margin:20px 0px;
+        background-color: black;
+        padding:100px 10px 100px;
+       
+       
+      }
+  }
