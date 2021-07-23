@@ -14,7 +14,7 @@ export default function Education(){
           <h3 className={styles.heading}>Skills</h3>
            <p className={styles.para}> I am fimiliar with building basic web applications 
            using<b> Html, Css, Javascript, Bootstrap, React Js, Node js, MongoDb</b> and currently 
-           working on <b>Next Js</b>. I am also good in <b>C++</b>.  
+           working on <b>Next Js</b>. I am also good at <b>C++</b> and fimiliar with <b>Python</b> as well.  
           </p>
         </div>
         </div>

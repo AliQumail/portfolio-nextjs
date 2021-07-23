@@ -10,7 +10,7 @@ export default function Contact() {
           <div className="col-lg-6 col-md-6 col-sm-12 justify-content-center">
          
             <h6 className={styles.email}>
-              You can email be at{" "}
+              You can email me at{" "}
               <text className={styles.emailAddress}>aliqumail8@gmail.com</text>
             </h6>
           
@@ -57,7 +57,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <h5 className="mt-5">© Ali Qumail</h5>
+      <h5 className="mt-5">© Ali Qumail 2021.</h5>
     </div>
   );
 }

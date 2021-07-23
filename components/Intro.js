@@ -57,7 +57,12 @@ function Intro() {
             <a className={styles.link} href="#projectsSection">
               Projects
             </a>
-            <a className={styles.link} href="/Resume.pdf">
+            <a
+              className={styles.link}
+              href="/Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               Resume
             </a>
             <a className={styles.link} href="#contactSection">
