@@ -1,0 +1,52 @@
+.emailAddress{
+    font-weight: bold;
+    text-decoration: underline;
+    color:rgb(194, 42, 42);
+}
+.email{
+    font-style: italic;
+    font-size: 1.4rem;
+  
+}
+.main{
+    background-color: #262b30  ;
+    color:white;
+    text-align :center;
+    padding:50px 0px 25px;
+    margin:50px 0px 0px;
+}
+
+.inputDiv{
+  margin:5px 0px 5px;
+  height: 45px;
+  width: 75%;
+  border:none;
+  border-radius: 2px;
+  padding-left: 8px;
+}
+.inputDiv2{
+    margin:5px 0px 5px;
+    height: 150px;
+    width: 75%;
+    border:none;
+    border-radius: 2px;
+    padding-left: 8px;
+  
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  

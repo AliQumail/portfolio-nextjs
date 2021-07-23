@@ -1,0 +1,77 @@
+.background{
+    background-image: url("../public/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 720px;
+    
+      
+}
+.signature{
+    color:white;
+    font-size: 2.0rem;
+    font-weight: bold;
+    font-family: 'Fuggles', cursive;
+    margin-left:5px;
+}
+.socialLinks{
+    color:white;
+    font-size: 1.2rem;
+    margin:0px 10px;
+    
+}
+.links{
+    margin:0px;
+    font-family: 'Otomanopee One', sans-serif;
+   
+}
+.link{
+    color:white;
+    font-size: 1.3rem;
+    margin:10px 15px 0px;
+   
+}
+.name{
+    color:yellow;
+  
+    font-style: italic;
+    font-size:3.2rem;
+    font-family: 'Encode Sans SC', sans-serif;
+} 
+.tags{
+    color:red;
+    font-size:1.7rem;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bold;
+}
+.introDetails{
+  text-align: center;
+  opacity: 0.8;
+  margin:100px 0px;
+  background-color: black;
+  padding:100px 10px 100px;
+ 
+ 
+}
+
+
+
+.fa {
+    padding: 0px 20px;
+    font-size: 26px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 13px 2px;
+    border-radius: 50%;
+    color:white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+.icons{
+  
+}

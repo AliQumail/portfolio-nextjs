@@ -1,0 +1,19 @@
+.main{
+    width: 85%;
+ 
+}
+.githubLink{
+    color:rgb(196, 72, 72);
+    position:absolute;
+    right:14px;
+}
+.githubLink:hover {
+    
+    color: rgb(255, 0, 0);
+}
+
+.image{
+    border: solid 1px red;
+}
+
+
