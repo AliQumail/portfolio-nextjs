@@ -1,9 +1,12 @@
 import Intro from "../components/Intro";
 import styles from "../styles/main.module.css";
 import Head from "next/head";
-import Education from "../components/Education";
+
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import HeroSection from "../components/HeroSection";
+import Skills from "../components/Skills";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -34,8 +37,19 @@ export default function Home() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-      </Head>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Poppins:wght@300;600&family=Roboto:wght@100&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+        ></link>
+      </Head>
+      {/* 
       <Intro />
 
       <section id="educationSection">
@@ -48,7 +62,17 @@ export default function Home() {
       <section id="contactSection">
         {" "}
         <Contact />
-      </section>
+      </section> */}
+      <HeroSection />
+      <Skills />
+      <Projects />
+      <Contact />
+      <footer className="page-footer font-small  blue mt-5">
+        <div className="footer-copyright text-center py-3">
+          © 2022 Copyright:
+          <Link href="/"> Ali Qumail </Link>
+        </div>
+      </footer>
     </div>
   );
 }

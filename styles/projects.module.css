@@ -1,8 +1,37 @@
-.heading{
-    color:purple;
+
+  .project_main_heading{
+    
+    font-weight: bold;
     text-decoration: underline;
-    font-size: 2.0rem;
-    font-family: 'Otomanopee One', sans-serif;
-    position:relative;
-    left:17px;
-}
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .project_heading{
+    font-weight: bold;
+    color:#5A4FF3;
+    font-size: 1.6rem;
+  }
+
+
+  .project_div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .project_stack{
+    margin:1% 1% 1%;
+    border-radius: 5px;
+    color: #185DC7;
+    background-color:  #D7D7E8;
+    font-weight: bold;
+    padding:2%;
+  }
+  .a_github:hover{
+    text-decoration: none;
+    color:white
+  }
+
+  .inner_div{
+    width: 90%;
+  }

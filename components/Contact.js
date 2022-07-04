@@ -1,63 +1,52 @@
 import styles from "../styles/contact.module.css";
+import linkedin from "../public/linkedin.png";
+import github from "../public/github.png";
+import gmail from "../public/gmail.png";
+import medium from "../public/medium.png";
+import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className={styles.main}>
-       <h3><b> <i>Contact</i></b></h3>
-      <div className="container mt-5">
-        <div className="row ">
-   
-          <div className="col-lg-6 col-md-6 col-sm-12 justify-content-center">
-         
-            <h6 className={styles.email}>
-              You can email me at{" "}
-              <text className={styles.emailAddress}>aliqumail8@gmail.com</text>
-            </h6>
-          
-     
-            <a
-              href="https://www.linkedin.com/in/ali-qumail-4b77601a8/"
-              rel="noreferrer"
-              target="_blank"
-              className={`fa fa-linkedin ${styles.fa} `}
-            ></a>
-            <a
-              href="https://github.com/AliQumail"
-              target="_blank"
-              rel="noreferrer"
-              className={`fa fa-github ${styles.fa} `}
-            ></a>
-            <a
-              href="https://aliqumail.medium.com/"
-              target="_blank"
-              rel="noreferrer"
-              className={`fa fa-medium ${styles.fa}`}
-            ></a>
-            <a
-              href="https://www.quora.com/profile/Ali-Qumail-2"
-              target="_blank"
-              rel="noreferrer"
-              className={`fa fa-quora ${styles.fa}`}
-            ></a>
-          </div>
-      
-          <div className="col m-auto">
-            <form method="POST" action="mailto:aliqumail8@gmail.com"
-            encType="multipart/form-data" name="EmailForm" >
-              <input className={styles.inputDiv} placeHolder="Email" /> <br />
-              <textarea
-                className={styles.inputDiv2}
-                placeHolder="Message"
-              />{" "}
-              <br />
-              <button type="submit" className="btn btn-primary w-75 mt-1">
-                SUBMIT
-              </button>
-            </form>
-          </div>
+    <div className={`container bg-white mt-5 pb-5 ${styles.contact_div}`}>
+      <h2 className={styles.contact_main_heading}>LET&apos;S CONNECT</h2>
+      <div className="row d-flex justify-content-center ">
+        <button type="button" className="btn btn-primary m-1">
+          <a href="https://www.linkedin.com/in/ali-qumail-4b77601a8/" target="_blank" rel="noreferrer">Linkedin</a>
+        </button>
+        <button type="button" className="btn btn-dark m-1">
+          <a href="https://github.com/AliQumail" target="_blank" rel="noreferrer">Github</a>
+        </button>
+        <button type="button" className="btn btn-danger m-1">
+          <a href="https://aliqumail.medium.com/" target="_blank" rel="noreferrer">Medium</a>
+        </button>
+        {/* <div className="col col-lg-1 col-sm-3 d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/ali-qumail-4b77601a8/"><Image
+            src={linkedin}
+            alt="not supported"
+            className={styles.s_icons}
+            width={60}
+            height={60}
+          /></a>
         </div>
+        <div className="col col-lg-1 col-sm-3 d-flex justify-content-center">
+        <a href="https://github.com/AliQumail">
+          <Image src={github} alt="not supported" width={60}
+            height={60}/>
+          </a>
+        </div>
+        <div className="col col-lg-1 col-sm-3 d-flex justify-content-center">
+        <a href="https://aliqumail.medium.com/">
+          <Image src={medium} alt="not supported" width={60}
+            height={60}/>
+          </a>
+        </div> */}
+        {/* <div className="col col-lg-1 col-sm-3 d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/ali-qumail-4b77601a8/">
+          <Image src={gmail} alt="not supported" width={60}
+            height={60}/>
+          </a>
+        </div> */}
       </div>
-      <h5 className="mt-5">© Ali Qumail 2021.</h5>
     </div>
   );
 }

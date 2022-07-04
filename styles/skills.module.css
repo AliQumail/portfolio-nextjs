@@ -1,0 +1,62 @@
+
+
+  .btn {
+    display: block;
+    cursor: pointer;
+    padding: 0.8em 1.4em;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: lowercase;
+    transition: transform 0.2s ease-in-out;
+  }
+  .icon{
+    font-size: 4.2rem;
+  }
+  .skill_text{
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  /* @media screen and (min-width: 700px) {
+    .icon {
+      font-size: 350%;
+    }
+    .skill_text{
+      font-size: 1rem;
+    }
+    
+  } */
+    
+ 
+  
+  /* .icon_div{
+    background-color: white;
+    padding:10px 0px 10px;
+    text-align: center;
+    margin: 0px 5px 0px;
+    font-weight: bold;
+    border-radius: 10px;
+  } */
+
+  .skills{
+   text-align: center;
+  
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+  }
+  @media screen and (max-width: 385px) {
+    .skills{
+      margin-top: 160px;
+    }
+  }
+    
+  
+
+  .techstack{
+    
+    font-weight: bold;
+    text-decoration: underline;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }

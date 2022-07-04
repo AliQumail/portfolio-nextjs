@@ -1,0 +1,58 @@
+.brand {
+  color: black;
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+/* .emailme {
+  color: #5a4ff3;
+  font-weight: 600;
+  border: solid 2px;
+  font-size: 1.1rem;
+  border-color: #5a4ff3;
+}
+
+
+.emailme:hover {
+  background-color: #5a4ff3;
+  color: white;
+} */
+
+.heading {
+  color: black;
+  font-weight: bold;
+  font-size: 4.2rem;
+}
+.headingname {
+  color: #5a4ff3;
+}
+.paragraph {
+  color: #604343;
+
+  font-size: 1.7rem;
+}
+.resume {
+  background-color: #5a4ff3;
+  color: white;
+  border: none;
+  border-radius: 2%;
+  padding: 9px 25px 9px;
+  font-size: 1.3rem;
+}
+
+.inner_container {
+  margin: 160px auto;
+  width: 90%;
+}
+.main {
+  height: 100vh;
+}
+
+@media screen and (max-width: 300px) {
+  .heading {
+    font-size: 3rem;
+  }
+  .paragraph {
+    font-size: 1.3rem;
+  }
+}
+  
