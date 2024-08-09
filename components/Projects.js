@@ -11,9 +11,35 @@ import Fms from "../public/fms.png";
 import Bbs from "../public/bbs.jpg";
 import Hms from "../public/hms.png";
 
-const data = [
-  
+import ChartGenious from "../public/ChartGenious.png"
+import CrypSimulator from "../public/CrypSimulator.png"
+import MyLedgerPro from "../public/MyLedgerPro.png"
 
+
+const data = [
+  {
+    name: "CrypSimulator",
+    img: CrypSimulator,
+    details: "Select an initial virtual amount, and trade 100+ cryptocurrencies. Get detailed pricing history for every currency and measure profit and loss.",
+    stack: [".NET Core", "Angular", "PostgreSQL","MongoDB", "RabbitMQ", "Docker"
+    ],
+    github: "https://github.com/AliQumail/CrypSimulator",
+  },
+  {
+    name: "MyLedgerPro",
+    img: MyLedgerPro,
+    details: "Developed a ledger application offering financial tracking, reporting, and visual graphics",
+    stack: [".NET Core", "Angular", "MySQL"],
+    github: "https://github.com/AliQumail/MyLedgerPro",
+  },
+
+  {
+    name: "ChartGenious",
+    img: ChartGenious,
+    details: "Upload data and find insights with the help of different charts and filters ( e.g sort, trim )",
+    stack: ["Angular"],
+    github: "https://github.com/AliQumail/ChartGenious",
+  },
   {
     name: "Flight Reservation System",
     img: Fms,
@@ -21,29 +47,6 @@ const data = [
     stack: ["React", "Node", "Express","MongoDB"],
     github: "https://github.com/AliQumail/Flight-Reservation-System",
   },
-
-  {
-    name: "Hostel Management System",
-    img: Hms,
-    details: "Allows user to book a room in hostel. Admin has a dashboard to view hostel details.",
-    stack: ["EJS", "Node", "Express","MongoDB"],
-    github: "https://github.com/AliQumail/Hostel-management-system-using-Express-mongoDB",
-  },
-  {
-    name: "GPA Calculator",
-    img: Gpacalc,
-    details: "A web application that calculates both CGPA and SGPA.",
-    stack: ["React", "Bootstrap"],
-    github: "https://github.com/AliQumail/Gpa-Calculator-React-Js",
-  },
-
-  {
-    name: "Basic Banking System",
-    img: Bbs,
-    details: "Implemented a basic version of banking system where user can make money transactions and view records.",
-    stack: ["EJS", "Node", "Express","MongoDB"],
-    github: "https://github.com/AliQumail/Basic-Banking-System",
-  }
 ];
 export default function Projects() {
   return (

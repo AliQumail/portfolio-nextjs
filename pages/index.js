@@ -69,7 +69,7 @@ export default function Home() {
       <Contact />
       <footer className="page-footer font-small  blue mt-5">
         <div className="footer-copyright text-center py-3">
-          © 2022 Copyright:
+          © 2024 Copyright:
           <Link href="/"> Ali Qumail </Link>
         </div>
       </footer>

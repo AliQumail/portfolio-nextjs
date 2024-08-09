@@ -53,8 +53,7 @@ export default function HeroSection() {
             Hi. I&apos;m <span className={styles.headingname}>Ali Qumail.</span>
           </h1>
           <p className={styles.paragraph}>
-            I&apos;m computer science student and I love building clean and
-            functional web applications.
+            Experienced Software Engineer Crafting Clean, Efficient, and Robust Software Solutions
           </p>
           
             <button className={styles.resume}><a href="/Resume.pdf" target="_blank">Resume</a></button>
