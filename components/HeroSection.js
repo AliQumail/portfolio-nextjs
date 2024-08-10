@@ -29,7 +29,7 @@ export default function HeroSection() {
           </button>
         </div>
       </nav>
-      <style jsx>  {`
+      <style>  {`
           .emailme {
             color: ${text=='Email me' ? '#5a4ff3' : 'white'};
             font-weight: 600;
