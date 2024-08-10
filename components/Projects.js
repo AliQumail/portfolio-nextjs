@@ -11,9 +11,9 @@ import Fms from "../public/fms.png";
 import Bbs from "../public/bbs.jpg";
 import Hms from "../public/hms.png";
 
-import cg from "../public/ChartGenious.png"
-import cs from "../public/CrypSimulator.png"
-import mlp from "../public/MyLedgerPro.png"
+import cg from "../public/cg.png"
+import cs from "../public/cs.png"
+import mlp from "../public/mlp.png"
 
 
 const data = [
