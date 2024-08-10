@@ -14,6 +14,12 @@
     font-size: 1.6rem;
   }
 
+  .project_img {
+    width: 100%;
+    height: 250px;
+    border: solid 1px red;
+  }
+
 
   .project_div{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

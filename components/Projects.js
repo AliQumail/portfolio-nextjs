@@ -57,7 +57,7 @@ export default function Projects() {
         return (
           <div key={index} className={`row bg-white p-5 mt-5 ${styles.project_div}`}>
             <div className="col-lg-6 col-sm-12  d-flex align-item-center">
-              <Image src={item.img} alt="not supported" />
+              <Image src={item.img} alt="not supported" className={styles.project_img}/>
             </div>
             <div className="col-lg-6 col-sm-12  mt-3 d-flex align-item-center">
               <div className={` ${styles.inner_div} m-auto text-center`}>
