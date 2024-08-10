@@ -11,15 +11,15 @@ import Fms from "../public/fms.png";
 import Bbs from "../public/bbs.jpg";
 import Hms from "../public/hms.png";
 
-import ChartGenious from "../public/ChartGenious.png"
-import CrypSimulator from "../public/CrypSimulator.png"
-import MyLedgerPro from "../public/MyLedgerPro.png"
+import cg from "../public/ChartGenious.png"
+import cs from "../public/CrypSimulator.png"
+import mlp from "../public/MyLedgerPro.png"
 
 
 const data = [
   {
     name: "CrypSimulator",
-    img: CrypSimulator,
+    img: cs,
     details: "Select an initial virtual amount, and trade 100+ cryptocurrencies. Get detailed pricing history for every currency and measure profit and loss.",
     stack: [".NET Core", "Angular", "PostgreSQL","MongoDB", "RabbitMQ", "Docker"
     ],
@@ -27,7 +27,7 @@ const data = [
   },
   {
     name: "MyLedgerPro",
-    img: MyLedgerPro,
+    img: mlp,
     details: "Developed a ledger application offering financial tracking, reporting, and visual graphics",
     stack: [".NET Core", "Angular", "MySQL"],
     github: "https://github.com/AliQumail/MyLedgerPro",
@@ -35,7 +35,7 @@ const data = [
 
   {
     name: "ChartGenious",
-    img: ChartGenious,
+    img: cg,
     details: "Upload data and find insights with the help of different charts and filters ( e.g sort, trim )",
     stack: ["Angular"],
     github: "https://github.com/AliQumail/ChartGenious",
